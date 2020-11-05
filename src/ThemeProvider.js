@@ -1,20 +1,19 @@
 import { createMuiTheme } from '@material-ui/core/styles';
-import purple from '@material-ui/core/colors/purple';
 import green from '@material-ui/core/colors/green';
 
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: purple[500],
+      main: '#cd6149',
     },
     secondary: {
       main: green[500],
     },
   },
   overrides: {
-   'MuiButton': {
-      root: {
-
+   'MuiDataGrid': {
+      cell: {
+         borderRight: 'solid 1px grey'
       },
    },
 }
