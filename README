@@ -1,6 +1,6 @@
 To run this project:
-1. Please open a powershell window in the same directory as this README.
-2. In the powershell window, run: npm install
+1. Please open a terminal window in the same directory as this README.
+2. In the terminal window, run: npm install
 3. After that command finishes running, run: npm build
 4. Once complete, the project should be loadable by opening the index.html file 
    in your browser of choice.
