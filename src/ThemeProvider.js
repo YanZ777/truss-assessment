@@ -11,9 +11,11 @@ const theme = createMuiTheme({
     },
   },
   overrides: {
-   'MuiDataGrid': {
-      cell: {
-         borderRight: 'solid 1px grey'
+   MuiDataGrid: {
+      root: {
+         '& .MuiDataGrid-cell': {
+            borderRight: 'solid 1px grey',
+         }
       },
    },
 }
